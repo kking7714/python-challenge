@@ -1,14 +1,20 @@
 
+
+```python
 ## Three Observed Trends from Pymoli Data Analysis
 #
 # Observation 1: Males dominate the gender use of the games purchased
 # Observation 2: Of the age groups recorded in this data the '20-24' group is the highest user base
 # Observation 3: Despite female spenders being a smaller demographic they spend more on average
 #
+```
 
+
+```python
 import pandas as pd
 import numpy as np
 
+```
 
 
 ```python
@@ -323,96 +329,6 @@ age_demo_df
 
 
 ```
-
-
-
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Purchase Count</th>
-      <th>Average Purchase Price</th>
-      <th>Total Purchase Value</th>
-      <th>Normalized Totals</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>10-14</th>
-      <td>3</td>
-      <td>$2.99</td>
-      <td>$8.96</td>
-      <td>$2.99</td>
-    </tr>
-    <tr>
-      <th>15-19</th>
-      <td>11</td>
-      <td>$2.76</td>
-      <td>$30.41</td>
-      <td>$2.76</td>
-    </tr>
-    <tr>
-      <th>20-24</th>
-      <td>36</td>
-      <td>$3.02</td>
-      <td>$108.89</td>
-      <td>$3.02</td>
-    </tr>
-    <tr>
-      <th>25-29</th>
-      <td>9</td>
-      <td>$2.90</td>
-      <td>$26.11</td>
-      <td>$2.90</td>
-    </tr>
-    <tr>
-      <th>30-34</th>
-      <td>7</td>
-      <td>$1.98</td>
-      <td>$13.89</td>
-      <td>$1.98</td>
-    </tr>
-    <tr>
-      <th>35-39</th>
-      <td>6</td>
-      <td>$3.56</td>
-      <td>$21.37</td>
-      <td>$3.56</td>
-    </tr>
-    <tr>
-      <th>40+</th>
-      <td>1</td>
-      <td>$4.65</td>
-      <td>$4.65</td>
-      <td>$4.65</td>
-    </tr>
-    <tr>
-      <th>&lt;10</th>
-      <td>5</td>
-      <td>$2.76</td>
-      <td>$13.82</td>
-      <td>$2.76</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
 
 
 ```python
